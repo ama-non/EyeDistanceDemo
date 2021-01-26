@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33744FEB2B0D34379713C849 /* Pods_EyeDistanceDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACFC53B3C3CFDFD6792E0E0 /* Pods_EyeDistanceDemoTests.framework */; };
+		40981E3225834BA5004615B2 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40981E3125834BA5004615B2 /* LightViewController.m */; };
+		40F5886D257A380100A4E802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F5886C257A380100A4E802 /* AppDelegate.m */; };
+		40F58870257A380100A4E802 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F5886F257A380100A4E802 /* SceneDelegate.m */; };
+		40F58873257A380100A4E802 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F58872257A380100A4E802 /* ViewController.m */; };
+		40F58876257A380100A4E802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F58874257A380100A4E802 /* Main.storyboard */; };
+		40F58878257A380300A4E802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F58877257A380300A4E802 /* Assets.xcassets */; };
+		40F5887B257A380300A4E802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F58879257A380300A4E802 /* LaunchScreen.storyboard */; };
+		40F5887E257A380300A4E802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F5887D257A380300A4E802 /* main.m */; };
+		40F58888257A380400A4E802 /* EyeDistanceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F58887257A380400A4E802 /* EyeDistanceDemoTests.m */; };
+		40F58893257A380400A4E802 /* EyeDistanceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F58892257A380400A4E802 /* EyeDistanceDemoUITests.m */; };
+		40F588A5257A383D00A4E802 /* VNDistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F588A4257A383D00A4E802 /* VNDistanceViewController.m */; };
+		40F588AB257A384C00A4E802 /* ARDistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F588AA257A384C00A4E802 /* ARDistanceViewController.m */; };
+		40F588CA257F589700A4E802 /* FaceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F588C9257F589700A4E802 /* FaceNavigationController.m */; };
+		58AA24C0B8FEEF4BF3696879 /* Pods_EyeDistanceDemo_EyeDistanceDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29898DD9AE74F62725947BAE /* Pods_EyeDistanceDemo_EyeDistanceDemoUITests.framework */; };
+		BEF21D2FBF3707957B3F12B1 /* Pods_EyeDistanceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB83516E2EF1A88C89B2F18F /* Pods_EyeDistanceDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40F58884257A380400A4E802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F58860257A380100A4E802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F58867257A380100A4E802;
+			remoteInfo = EyeDistanceDemo;
+		};
+		40F5888F257A380400A4E802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F58860257A380100A4E802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F58867257A380100A4E802;
+			remoteInfo = EyeDistanceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40981E092581D0A0004615B2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		046643D64D924E79F1330DDF /* Pods-EyeDistanceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeDistanceDemo.release.xcconfig"; path = "Target Support Files/Pods-EyeDistanceDemo/Pods-EyeDistanceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0C3A4A7A93C505352DE0AF73 /* Pods-EyeDistanceDemo-EyeDistanceDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeDistanceDemo-EyeDistanceDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-EyeDistanceDemo-EyeDistanceDemoUITests/Pods-EyeDistanceDemo-EyeDistanceDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29898DD9AE74F62725947BAE /* Pods_EyeDistanceDemo_EyeDistanceDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeDistanceDemo_EyeDistanceDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40981E3025834BA5004615B2 /* LightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		40981E3125834BA5004615B2 /* LightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
+		40F58868257A380100A4E802 /* EyeDistanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeDistanceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F5886B257A380100A4E802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40F5886C257A380100A4E802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40F5886E257A380100A4E802 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		40F5886F257A380100A4E802 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		40F58871257A380100A4E802 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40F58872257A380100A4E802 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40F58875257A380100A4E802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F58877257A380300A4E802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F5887A257A380300A4E802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40F5887C257A380300A4E802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F5887D257A380300A4E802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40F58883257A380400A4E802 /* EyeDistanceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeDistanceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F58887257A380400A4E802 /* EyeDistanceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EyeDistanceDemoTests.m; sourceTree = "<group>"; };
+		40F58889257A380400A4E802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F5888E257A380400A4E802 /* EyeDistanceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeDistanceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F58892257A380400A4E802 /* EyeDistanceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EyeDistanceDemoUITests.m; sourceTree = "<group>"; };
+		40F58894257A380400A4E802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F588A3257A383D00A4E802 /* VNDistanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNDistanceViewController.h; sourceTree = "<group>"; };
+		40F588A4257A383D00A4E802 /* VNDistanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNDistanceViewController.m; sourceTree = "<group>"; };
+		40F588A9257A384C00A4E802 /* ARDistanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARDistanceViewController.h; sourceTree = "<group>"; };
+		40F588AA257A384C00A4E802 /* ARDistanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDistanceViewController.m; sourceTree = "<group>"; };
+		40F588C8257F589700A4E802 /* FaceNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceNavigationController.h; sourceTree = "<group>"; };
+		40F588C9257F589700A4E802 /* FaceNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceNavigationController.m; sourceTree = "<group>"; };
+		4ACFC53B3C3CFDFD6792E0E0 /* Pods_EyeDistanceDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeDistanceDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F4E6B3C6C60E2D1E8E6001 /* Pods-EyeDistanceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeDistanceDemo.debug.xcconfig"; path = "Target Support Files/Pods-EyeDistanceDemo/Pods-EyeDistanceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB83516E2EF1A88C89B2F18F /* Pods_EyeDistanceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeDistanceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34189DE12C7B669E5BB1418 /* Pods-EyeDistanceDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeDistanceDemoTests.release.xcconfig"; path = "Target Support Files/Pods-EyeDistanceDemoTests/Pods-EyeDistanceDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D61F88BBA1BA1FE0D184FF35 /* Pods-EyeDistanceDemo-EyeDistanceDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeDistanceDemo-EyeDistanceDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeDistanceDemo-EyeDistanceDemoUITests/Pods-EyeDistanceDemo-EyeDistanceDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3B6AD219CDDD12CC5299EF /* Pods-EyeDistanceDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeDistanceDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeDistanceDemoTests/Pods-EyeDistanceDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F58865257A380100A4E802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF21D2FBF3707957B3F12B1 /* Pods_EyeDistanceDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F58880257A380400A4E802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33744FEB2B0D34379713C849 /* Pods_EyeDistanceDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F5888B257A380400A4E802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AA24C0B8FEEF4BF3696879 /* Pods_EyeDistanceDemo_EyeDistanceDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3676B5E726FE113C09167D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB83516E2EF1A88C89B2F18F /* Pods_EyeDistanceDemo.framework */,
+				29898DD9AE74F62725947BAE /* Pods_EyeDistanceDemo_EyeDistanceDemoUITests.framework */,
+				4ACFC53B3C3CFDFD6792E0E0 /* Pods_EyeDistanceDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40F5885F257A380100A4E802 = {
+			isa = PBXGroup;
+			children = (
+				40F5886A257A380100A4E802 /* EyeDistanceDemo */,
+				40F58886257A380400A4E802 /* EyeDistanceDemoTests */,
+				40F58891257A380400A4E802 /* EyeDistanceDemoUITests */,
+				40F58869257A380100A4E802 /* Products */,
+				B9C3B035E70ED77A569B7FE4 /* Pods */,
+				3676B5E726FE113C09167D24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40F58869257A380100A4E802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F58868257A380100A4E802 /* EyeDistanceDemo.app */,
+				40F58883257A380400A4E802 /* EyeDistanceDemoTests.xctest */,
+				40F5888E257A380400A4E802 /* EyeDistanceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F5886A257A380100A4E802 /* EyeDistanceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				40F5886B257A380100A4E802 /* AppDelegate.h */,
+				40F5886C257A380100A4E802 /* AppDelegate.m */,
+				40F5886E257A380100A4E802 /* SceneDelegate.h */,
+				40F5886F257A380100A4E802 /* SceneDelegate.m */,
+				40F588C8257F589700A4E802 /* FaceNavigationController.h */,
+				40F588C9257F589700A4E802 /* FaceNavigationController.m */,
+				40F58871257A380100A4E802 /* ViewController.h */,
+				40F58872257A380100A4E802 /* ViewController.m */,
+				40F588A3257A383D00A4E802 /* VNDistanceViewController.h */,
+				40F588A4257A383D00A4E802 /* VNDistanceViewController.m */,
+				40F588A9257A384C00A4E802 /* ARDistanceViewController.h */,
+				40F588AA257A384C00A4E802 /* ARDistanceViewController.m */,
+				40981E3025834BA5004615B2 /* LightViewController.h */,
+				40981E3125834BA5004615B2 /* LightViewController.m */,
+				40F58874257A380100A4E802 /* Main.storyboard */,
+				40F58877257A380300A4E802 /* Assets.xcassets */,
+				40F58879257A380300A4E802 /* LaunchScreen.storyboard */,
+				40F5887C257A380300A4E802 /* Info.plist */,
+				40F5887D257A380300A4E802 /* main.m */,
+			);
+			path = EyeDistanceDemo;
+			sourceTree = "<group>";
+		};
+		40F58886257A380400A4E802 /* EyeDistanceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				40F58887257A380400A4E802 /* EyeDistanceDemoTests.m */,
+				40F58889257A380400A4E802 /* Info.plist */,
+			);
+			path = EyeDistanceDemoTests;
+			sourceTree = "<group>";
+		};
+		40F58891257A380400A4E802 /* EyeDistanceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40F58892257A380400A4E802 /* EyeDistanceDemoUITests.m */,
+				40F58894257A380400A4E802 /* Info.plist */,
+			);
+			path = EyeDistanceDemoUITests;
+			sourceTree = "<group>";
+		};
+		B9C3B035E70ED77A569B7FE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56F4E6B3C6C60E2D1E8E6001 /* Pods-EyeDistanceDemo.debug.xcconfig */,
+				046643D64D924E79F1330DDF /* Pods-EyeDistanceDemo.release.xcconfig */,
+				D61F88BBA1BA1FE0D184FF35 /* Pods-EyeDistanceDemo-EyeDistanceDemoUITests.debug.xcconfig */,
+				0C3A4A7A93C505352DE0AF73 /* Pods-EyeDistanceDemo-EyeDistanceDemoUITests.release.xcconfig */,
+				FF3B6AD219CDDD12CC5299EF /* Pods-EyeDistanceDemoTests.debug.xcconfig */,
+				D34189DE12C7B669E5BB1418 /* Pods-EyeDistanceDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F58867257A380100A4E802 /* EyeDistanceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F58897257A380400A4E802 /* Build configuration list for PBXNativeTarget "EyeDistanceDemo" */;
+			buildPhases = (
+				E113308F0888913CD2891A71 /* [CP] Check Pods Manifest.lock */,
+				40F58864257A380100A4E802 /* Sources */,
+				40F58865257A380100A4E802 /* Frameworks */,
+				40F58866257A380100A4E802 /* Resources */,
+				1BAE811F7E9E849C108371E5 /* [CP] Embed Pods Frameworks */,
+				40981E092581D0A0004615B2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeDistanceDemo;
+			productName = EyeDistanceDemo;
+			productReference = 40F58868257A380100A4E802 /* EyeDistanceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40F58882257A380400A4E802 /* EyeDistanceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F5889A257A380400A4E802 /* Build configuration list for PBXNativeTarget "EyeDistanceDemoTests" */;
+			buildPhases = (
+				51D0829ABEFE12052561EC79 /* [CP] Check Pods Manifest.lock */,
+				40F5887F257A380400A4E802 /* Sources */,
+				40F58880257A380400A4E802 /* Frameworks */,
+				40F58881257A380400A4E802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F58885257A380400A4E802 /* PBXTargetDependency */,
+			);
+			name = EyeDistanceDemoTests;
+			productName = EyeDistanceDemoTests;
+			productReference = 40F58883257A380400A4E802 /* EyeDistanceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40F5888D257A380400A4E802 /* EyeDistanceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F5889D257A380400A4E802 /* Build configuration list for PBXNativeTarget "EyeDistanceDemoUITests" */;
+			buildPhases = (
+				FC708A211FB2CF5C4FBD3F73 /* [CP] Check Pods Manifest.lock */,
+				40F5888A257A380400A4E802 /* Sources */,
+				40F5888B257A380400A4E802 /* Frameworks */,
+				40F5888C257A380400A4E802 /* Resources */,
+				B1C371F4E427AF4E2B89EEB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F58890257A380400A4E802 /* PBXTargetDependency */,
+			);
+			name = EyeDistanceDemoUITests;
+			productName = EyeDistanceDemoUITests;
+			productReference = 40F5888E257A380400A4E802 /* EyeDistanceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F58860257A380100A4E802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					40F58867257A380100A4E802 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					40F58882257A380400A4E802 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 40F58867257A380100A4E802;
+					};
+					40F5888D257A380400A4E802 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 40F58867257A380100A4E802;
+					};
+				};
+			};
+			buildConfigurationList = 40F58863257A380100A4E802 /* Build configuration list for PBXProject "EyeDistanceDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F5885F257A380100A4E802;
+			productRefGroup = 40F58869257A380100A4E802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F58867257A380100A4E802 /* EyeDistanceDemo */,
+				40F58882257A380400A4E802 /* EyeDistanceDemoTests */,
+				40F5888D257A380400A4E802 /* EyeDistanceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F58866257A380100A4E802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F5887B257A380300A4E802 /* LaunchScreen.storyboard in Resources */,
+				40F58878257A380300A4E802 /* Assets.xcassets in Resources */,
+				40F58876257A380100A4E802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F58881257A380400A4E802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F5888C257A380400A4E802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BAE811F7E9E849C108371E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeDistanceDemo/Pods-EyeDistanceDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeDistanceDemo/Pods-EyeDistanceDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeDistanceDemo/Pods-EyeDistanceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D0829ABEFE12052561EC79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeDistanceDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C371F4E427AF4E2B89EEB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeDistanceDemo-EyeDistanceDemoUITests/Pods-EyeDistanceDemo-EyeDistanceDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeDistanceDemo-EyeDistanceDemoUITests/Pods-EyeDistanceDemo-EyeDistanceDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeDistanceDemo-EyeDistanceDemoUITests/Pods-EyeDistanceDemo-EyeDistanceDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E113308F0888913CD2891A71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeDistanceDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC708A211FB2CF5C4FBD3F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeDistanceDemo-EyeDistanceDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F58864257A380100A4E802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F588AB257A384C00A4E802 /* ARDistanceViewController.m in Sources */,
+				40F58873257A380100A4E802 /* ViewController.m in Sources */,
+				40F5886D257A380100A4E802 /* AppDelegate.m in Sources */,
+				40F588CA257F589700A4E802 /* FaceNavigationController.m in Sources */,
+				40F588A5257A383D00A4E802 /* VNDistanceViewController.m in Sources */,
+				40F5887E257A380300A4E802 /* main.m in Sources */,
+				40F58870257A380100A4E802 /* SceneDelegate.m in Sources */,
+				40981E3225834BA5004615B2 /* LightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F5887F257A380400A4E802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F58888257A380400A4E802 /* EyeDistanceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F5888A257A380400A4E802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F58893257A380400A4E802 /* EyeDistanceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40F58885257A380400A4E802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F58867257A380100A4E802 /* EyeDistanceDemo */;
+			targetProxy = 40F58884257A380400A4E802 /* PBXContainerItemProxy */;
+		};
+		40F58890257A380400A4E802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F58867257A380100A4E802 /* EyeDistanceDemo */;
+			targetProxy = 40F5888F257A380400A4E802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40F58874257A380100A4E802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F58875257A380100A4E802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40F58879257A380300A4E802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F5887A257A380300A4E802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F58895257A380400A4E802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40F58896257A380400A4E802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F58898257A380400A4E802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F4E6B3C6C60E2D1E8E6001 /* Pods-EyeDistanceDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A94S5L9M96;
+				INFOPLIST_FILE = EyeDistanceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atom.EyeDistanceDem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40F58899257A380400A4E802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046643D64D924E79F1330DDF /* Pods-EyeDistanceDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A94S5L9M96;
+				INFOPLIST_FILE = EyeDistanceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atom.EyeDistanceDem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40F5889B257A380400A4E802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3B6AD219CDDD12CC5299EF /* Pods-EyeDistanceDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A94S5L9M96;
+				INFOPLIST_FILE = EyeDistanceDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atom.EyeDistanceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeDistanceDemo.app/EyeDistanceDemo";
+			};
+			name = Debug;
+		};
+		40F5889C257A380400A4E802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34189DE12C7B669E5BB1418 /* Pods-EyeDistanceDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A94S5L9M96;
+				INFOPLIST_FILE = EyeDistanceDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atom.EyeDistanceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeDistanceDemo.app/EyeDistanceDemo";
+			};
+			name = Release;
+		};
+		40F5889E257A380400A4E802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61F88BBA1BA1FE0D184FF35 /* Pods-EyeDistanceDemo-EyeDistanceDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A94S5L9M96;
+				INFOPLIST_FILE = EyeDistanceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atom.EyeDistanceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeDistanceDemo;
+			};
+			name = Debug;
+		};
+		40F5889F257A380400A4E802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3A4A7A93C505352DE0AF73 /* Pods-EyeDistanceDemo-EyeDistanceDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A94S5L9M96;
+				INFOPLIST_FILE = EyeDistanceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atom.EyeDistanceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeDistanceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F58863257A380100A4E802 /* Build configuration list for PBXProject "EyeDistanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F58895257A380400A4E802 /* Debug */,
+				40F58896257A380400A4E802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F58897257A380400A4E802 /* Build configuration list for PBXNativeTarget "EyeDistanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F58898257A380400A4E802 /* Debug */,
+				40F58899257A380400A4E802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F5889A257A380400A4E802 /* Build configuration list for PBXNativeTarget "EyeDistanceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F5889B257A380400A4E802 /* Debug */,
+				40F5889C257A380400A4E802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F5889D257A380400A4E802 /* Build configuration list for PBXNativeTarget "EyeDistanceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F5889E257A380400A4E802 /* Debug */,
+				40F5889F257A380400A4E802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F58860257A380100A4E802 /* Project object */;
+}
